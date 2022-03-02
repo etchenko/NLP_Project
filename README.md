@@ -1,1 +1,6 @@
-# Deep_Learning_Project
+# Deep Learning Project
+
+## Authors
+Elijah Tamarchenko, Huandong Chang
+
+## Abstract
