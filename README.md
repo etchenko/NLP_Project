@@ -29,14 +29,14 @@ DistilBERT (Sanh et. al, 2020) is a transformer model based on the BERT architec
 
 #### LSTM vs DistilBERT Evaluation Tables
 <p float="left">
-  <img src="READMEPics/LSTMTable.png" width="500" />
-  <img src="READMEPics/BERTTable.png" width="500" /> 
+  <img src="READMEPics/LSTMTable.png" width="400" />
+  <img src="READMEPics/BERTTable.png" width="400" /> 
 </p>
 
 #### LSTM vs DistilBERT Confusion Matrices
 <p float="left">
-  <img src="READMEPics/LSTMMatrix.png" width="500" />
-  <img src="READMEPics/BERTMatrix.png" width="500" /> 
+  <img src="READMEPics/LSTMMatrix.png" width="400" />
+  <img src="READMEPics/BERTMatrix.png" width="400" /> 
 </p>
 
 
