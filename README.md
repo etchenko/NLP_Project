@@ -1,12 +1,12 @@
 # Research Paper Classification by Abstract
 
-## Authors
+## Abstract
+In this project, we build a Natural Language Processing (NLP) pipeline and apply LSTM and DistilBERT models to predict which subject a research paper belongs to based on its abstract. Our dataset consists of 15,000 papers from the arxiv dataset on Kaggle, 60\% (9,000) of which are used for model training. Paper subjects are uniformly distributed among Computer Science, Mathematics, Physics, Quant. Bio, and Statistics. With the limited amount of computing power and training data, the LSTM model reaches 86\% accuracy and the DistilBERT model reaches 92\% accuracy in the testing test. 
+
+#### Authors
 Elijah Tamarchenko, Williams College
 
 Huandong Chang, Grinnell College
-
-## Abstract
-In this project, we build a Natural Language Processing (NLP) pipeline and apply LSTM and DistilBERT models to predict which subject a research paper belongs to based on its abstract. Our dataset consists of 15,000 papers from the arxiv dataset on Kaggle, 60\% (9,000) of which are used for model training. Paper subjects are uniformly distributed among Computer Science, Mathematics, Physics, Quant. Bio, and Statistics. With the limited amount of computing power and training data, the LSTM model reaches 86\% accuracy and the DistilBERT model reaches 92\% accuracy in the testing test. 
 
 ## Dataset
 Our dataset is from the arxiv dataset on Kaggle, with over 1.7 million scholarly papers across STEM. Since our computing power is limited, we only extract 15,000 papers from the arxiv dataset and use 60\% (9,000) for model training, 20\% for the validation set, and 20\% for the testing set. 
