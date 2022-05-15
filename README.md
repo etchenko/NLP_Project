@@ -2,6 +2,7 @@
 
 ## Authors
 Elijah Tamarchenko, Williams College
+
 Huandong Chang, Grinnell College
 
 ## Abstract
@@ -26,6 +27,11 @@ DistilBERT (Sanh et. al, 2020) is a transformer model based on the BERT architec
 ## Results
 
 Overall, the LSTM Model has given us 86\% accuracy and the DistilBERT model gives 92\% accuracy in the testing subset. For both models, Physics paper is the most distinguishable of all the fields (more sensitive and more precise), Math and Quant. Bio have decent performance, while Computer Science and Statistics are harder to identify and are sometimes confused with each other. After analyzing the misclassifications, we find out that a lot of the papers that are misclassified by the model seem to fall under the intersection of computer science and statistics, even though they are only classified as statistics.
+
+![](READMEPics/LSTMMatrix.png)
+![](READMEPics/LSTMTable.png)
+![](READMEPics/BERTMatrix.png)
+![](READMEPics/BERTTable.png)
 
 ## Discussion
 From the result, we know the DistilBERT model's accuracy is 6\% higher than the LSTM model. This makes sense, as the DistilBERT model is a finetuning of a large state-of-the-art model which is used for lots of other NLP tasks, and thus would perform a lot better. Also, the use of transformers allows the model to use the context of the abstract for each word in it, rather than sequentially building up from left to right as the LSTM, and this bidirectionality could allow for more accuracy. We believe accuracies of 86\% and 92\% are very impressive for a model that is only reading the abstract. We postulate that further research would show that reading more parts (such as the conclusion part) of each scientific paper would probably provide higher accuracy for either model, as it would provide a lot more context to the transformer model as well as the LSTM model.
